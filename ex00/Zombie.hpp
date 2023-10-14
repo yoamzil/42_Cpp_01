@@ -23,14 +23,15 @@ class   Zombie
 {
     private:
 
-        std::string name;
+        std::string     name;
 
     public:
 
+        Zombie(std::string getName);
         ~Zombie();
 
         void    announce(void);
-        void    nameInit(std::string theName);
+        // void    nameInit(std::string theName);
         void	randomChump(std::string name);
         Zombie* newZombie(std::string name);
 

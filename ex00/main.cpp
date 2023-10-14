@@ -15,12 +15,13 @@
 /* ************************************************************************************** */
 
 #include "Zombie.hpp"
+// #include "randomChump.cpp"
 
 int main(void)
 {
-    Zombie  zombie;
+    // To create a zombie in the stack
+    Zombie  zombie("StackZombie");
 
-    zombie.newZombie("HeapZombie");
-    zombie.randomChump("StackZombie");
-    return (0);
+    // Zombie::randomChump("StackZombie");
+    // To create a zombie in the heap
 }
