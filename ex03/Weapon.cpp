@@ -16,15 +16,20 @@
 
 #include "Weapon.hpp"
 
-Weapon::Weapon(std::string type)
+Weapon::Weapon()
 {}
 
-const	std::string&	Weapon::getType()
+Weapon::Weapon(std::string weaponType)
+{
+	type = weaponType;
+}
+
+const std::string&	Weapon::getType()
 {
 	return (type);
 }
 
-std::string		Weapon::setType(std::string newType)
+void	Weapon::setType(std::string newType)
 {
 	type = newType;
 }

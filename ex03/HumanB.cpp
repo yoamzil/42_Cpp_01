@@ -13,3 +13,11 @@
 /*		"Y88P"									By: yoamzil <yoamzil@student.1337.ma>     */
 /*																						  */
 /* ************************************************************************************** */
+
+#include "Weapon.hpp"
+#include "HumanB.hpp"
+
+void	attack()
+{
+	std::cout << "attacks with their"<< std::endl;
+}

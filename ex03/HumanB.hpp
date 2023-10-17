@@ -22,6 +22,10 @@
 class	HumanB
 {
 	private:
+
+		std::string		name;
+		Weapon			type;
+
 	public:
 
 		HumanB(std::string name);
