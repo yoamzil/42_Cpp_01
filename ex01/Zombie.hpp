@@ -30,8 +30,9 @@ class   Zombie
         Zombie(std::string getName);
         ~Zombie();
 
-		Zombie*		zombieHorde(int N, std::string name);
         void		announce(void);
 };
+
+Zombie*		zombieHorde(int N, std::string name);
 
 #endif
