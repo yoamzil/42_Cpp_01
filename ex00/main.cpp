@@ -19,18 +19,13 @@
 
 int main(void)
 {
-    // To create a zombie in the stack using the constructor
-
-    Zombie  zombie("StackZombie");
-    zombie.announce();
-
-    // To create a zombie in the stack using the randomChump function
-
-    zombie.randomChump("randomZombie");
+    // To create a zombie in the stack using randomChump
+    randomChump("randomZombie");
 
     // To create a zombie in the heap
-
-    Zombie  *heapzombie = zombie.newZombie("HeapZombie");
+    Zombie  *heapzombie = newZombie("HeapZombie");
     heapzombie->announce();
     delete heapzombie;
+
+    return (0);
 }

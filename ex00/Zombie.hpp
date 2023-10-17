@@ -31,11 +31,10 @@ class   Zombie
         ~Zombie();
 
         void    announce(void);
-        // void    nameInit(std::string theName);
-        void	randomChump(std::string name);
-        Zombie* newZombie(std::string name);
-
-        // void    getName(void);
 };
+
+
+void	randomChump(std::string name);
+Zombie* newZombie(std::string name);
 
 #endif
