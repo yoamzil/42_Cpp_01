@@ -20,7 +20,7 @@ int main(void)
 {
 	// To create N zombies using the zombieHorde
 	Zombie *horde = zombieHorde(5, "hello");
-	delete horde;
+	delete[] horde;
 
     return (0);
 }
