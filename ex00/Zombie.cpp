@@ -16,9 +16,9 @@
 
 #include "Zombie.hpp"
 
-Zombie::Zombie(std::string getName)
+void Zombie::setName(std::string value)
 {
-	name = getName;
+	name = value;
 }
 
 Zombie::~Zombie()
@@ -30,16 +30,3 @@ void	Zombie::announce(void)
 {
 	std::cout << name << ": BraiiiiiiinnnzzzZ..." << std::endl;
 }
-
-// void	Zombie::nameInit(std::string theName)
-// {
-// 	name = theName;
-// }
-
-// void	Zombie::getName(void)
-// {
-// 	std::cout << name << ": ";
-// 	// return (name);
-// }
-
-

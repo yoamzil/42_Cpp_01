@@ -18,5 +18,8 @@
 
 Zombie*		newZombie(std::string name)
 {
-	return new Zombie(name);
+	Zombie	*zombie = new Zombie;
+
+	zombie->setName(name);
+	return (zombie);
 }

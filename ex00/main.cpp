@@ -19,10 +19,10 @@
 int main(void)
 {
     // To create a zombie in the stack using randomChump
-    randomChump("randomZombie");
+    randomChump("Stack Zombie");
 
     // To create a zombie in the heap
-    Zombie  *heapzombie = newZombie("HeapZombie");
+    Zombie  *heapzombie = newZombie("Heap Zombie");
     heapzombie->announce();
     delete heapzombie;
 
