@@ -17,7 +17,10 @@
 #include "Weapon.hpp"
 #include "HumanB.hpp"
 
-HumanB::HumanB(std::string humanName) : name(humanName) {}
+HumanB::HumanB(std::string humanName)
+{
+	name = humanName;
+}
 
 void	HumanB::attack()
 {
