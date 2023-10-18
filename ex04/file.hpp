@@ -20,6 +20,6 @@
 #include <iostream>
 #include <fstream>
 
-
+void	wordReplace(std::string &sourceFileName, std::string &s1, std::string &s2);
 
 #endif
