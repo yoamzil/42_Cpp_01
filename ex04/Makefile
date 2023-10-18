@@ -1,9 +1,9 @@
 CC			=	c++
 CXXFLAGS	=	-Wall -Werror -Wextra -std=c++98
 NAME		=	replace
-SRCS		=	main.cpp
+SRCS		=	main.cpp file.cpp
 OBJS		=	$(SRCS:.cpp=.o)
-HFS			=	
+HFS			=	file.hpp
 
 %.o			:	%.cpp $(HFS)
 				$(CC) $(CXXFLAGS) -c $< -o $@
