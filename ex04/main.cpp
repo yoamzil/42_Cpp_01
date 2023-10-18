@@ -48,11 +48,6 @@ int main(int ac, char **av)
 			}
 			destinationFile << line << '\n';
 		}
-		// if (!std::getline(sourceFile, line))
-		// {
-		// 	std::cout << "EMPTY FILE." << std::endl;
-		// 	return (1);
-		// }
 		sourceFile.close();
 		destinationFile.close();
 
@@ -60,5 +55,5 @@ int main(int ac, char **av)
 	}
 	else
 		std::cout << "Wrong number of arguments" << std::endl;
-	return 0;
+	return (0);
 }
