@@ -17,7 +17,14 @@
 #include "Weapon.hpp"
 #include "HumanB.hpp"
 
-void	attack()
+HumanB::HumanB(std::string humanName) : name(humanName) {}
+
+void	HumanB::attack()
 {
-	std::cout << "attacks with their"<< std::endl;
+	std::cout << name << " attacks with their " << weapon->getType() << std::endl;
+}
+
+void	HumanB::setWeapon(Weapon &newWeapon)
+{
+	weapon = &newWeapon;
 }
