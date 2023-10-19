@@ -1,9 +1,9 @@
 CC			=	c++
 CXXFLAGS	=	-Wall -Werror -Wextra -std=c++98
 NAME		=	harl
-SRCS		=	main.cpp harl.cpp
+SRCS		=	main.cpp Harl.cpp
 OBJS		=	$(SRCS:.cpp=.o)
-HFS			=	harl.hpp
+HFS			=	Harl.hpp
 
 %.o			:	%.cpp $(HFS)
 				$(CC) $(CXXFLAGS) -c $< -o $@
