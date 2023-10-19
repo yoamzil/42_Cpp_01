@@ -16,7 +16,7 @@
 
 #include "Zombie.hpp"
 
-void Zombie::setName(std::string value)
+Zombie::Zombie(std::string value)
 {
 	name = value;
 }
